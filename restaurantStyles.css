@@ -1,0 +1,34 @@
+.center {
+    text-align: center;
+}
+
+.nav {
+    display: inline;
+    padding: 5px;
+    font-weight: 100;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav:hover {
+    font-weight: bolder;
+}
+
+.title {
+    font-family: 'Play', sans-serif;
+}
+
+#title-img {
+    background-color: lightblue;
+}
+
+p {
+    text-align: center;
+    font-family: 'Play', sans-serif;
+    font-style: italic;
+}

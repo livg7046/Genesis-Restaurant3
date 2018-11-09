@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tummy Hungry</title>
+    <link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+
+    <style>
+        .center {
+            text-align: center;
+        }
+
+        .nav {
+            display: inline;
+            padding: 5px;
+            font-weight: 100;
+            font-family: 'Times New Roman', Times, serif;
+            text-decoration: none;
+            
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .nav:hover {
+            font-weight: bolder;
+        }
+
+        .title {
+            font-family: 'Play', sans-serif;
+        }
+
+        .bold {
+            font-weight: bold;
+        }
+
+    </style>
+</head>
+<body class="container">
+    <header class="center">
+        <h1 class="title">Contact Us</h1>
+    </header>
+    <hr />
+
+    <nav>
+        <span>
+            <a href="index.html" class="badge badge-info md">Home</a>
+            <a href="menu.html" class="badge badge-info md">Menu</a>
+            <a href="contact.html" class="badge badge-info md">Contact Us</a>
+
+        </span>
+    </nav>
+
+    <hr />
+
+    <h2 class="center">Information Request</h2>
+    <div class="container center_div">
+        <form name="contact" onsubmit="return validateItems();">
+            <div class="form-group row">
+                <label for="inputName" class="col-form-label">Name:</label>
+                <div class="col-sm-8">
+                <input type="text" class="form-control" id="inputName" placeholder="" required>
+                </div>
+            </div>
+            <br /> 
+            <div class="form-group row">
+                <label for="inputEmail" class="col-form-label">Email: </label>
+                <div class="col-sm-8">
+                    <input type="email" class="form-control" id="inputEmail3" placeholder="" required>
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="inputPhone" class="col-form-label">Phone:</label>
+                <div class="col-sm-8">
+                <input type="text" class="form-control" id="inputPhone" placeholder="" required>
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="contact" class="col-form-label">Reason for Inquiry:</label>
+                        <div class="col-sm-8">
+                            <select class="form-control" required>
+                                <option value="default">Catering</option>
+                                <option value="privateParty">Private Party</option>
+                                <option value="feedback">Feedback</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+            <div class="form-group row">
+                    <label for="inputAdd" class="col-sm-4 col-form-label">Additinal Information:</label>
+                    <div class="col-sm-8">
+                    <input type="text" class="form-control" id="inputAdd" placeholder="" required>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <div class="form-check form-check-inline">
+                    <label>Have you been to the restaurant?</label>
+                    <input type="radio" id="choice1" name="questionnaire" value="yes">
+                    <label for="choice1">Yes</label>
+                    <input type="radio" id="choice2" name="questionnaire" value="no">
+                    <label for="choice2">No</label>
+                </div>
+            </div>
+            
+            <div class="form-group row">
+                <div class="form-check form-check-inline">
+                    <label>Best Days to contact you:</label>
+                    <input class="form-check-input" type="checkbox" id="m" name="mon" value="mon"> 
+                    <label class="form-check-label" for="mon">  M  </label>
+                    <input class="form-check-input" type="checkbox" id="t" name="tues" value="tues"> 
+                    <label class="form-check-label" for="tues">  T</label>
+                    <input class="form-check-input"type="checkbox" id="w" name="wed" value="wed"> 
+                    <label class="form-check-label" for="mon">  W</label>
+                    <input class="form-check-input" type="checkbox" id="h" name="thurs" value="thurs"> 
+                    <label class="form-check-label" for="mon">  H</label>
+                    <input class="form-check-input" class="form-check-label" type="checkbox" id="f" name="fri" value="fri"> 
+                    <label class="form-check-label" for="mon">  F</label><br>
+            </div>
+            </div>
+            <button class="button" type="submit" >Submit</button>
+        </form>
+
+    </div>
+
+
+
+</div>
+    
+        <footer class="center">
+            <hr />
+            <p>&copy; 2018 Tummy Hungry</p>
+            <p>1234 FeedMe Ave. Somewhere, WI</p>
+            <p>(555) 555-5555</p>
+            <hr />
+        </footer>
+        <!-- BOOTSTRAP -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+        <script>
+            function validateItems() {
+                alert('Thank you, we have received your information and get back to you as soon as possible.');
+
+            }
+        </script>
+        <noscript>Your browser does not support javascript!</noscript>
+    </body>

@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tummy Hungry</title>
+    <link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+
+    <style>
+        .center {
+            text-align: center;
+        }
+
+        
+        .card {
+            height: 200px;
+        }
+
+        .nav {
+            display: inline;
+            padding: 5px;
+            font-weight: 100;
+            font-family: 'Times New Roman', Times, serif;
+            text-decoration: none;
+            
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .nav:hover {
+            font-weight: bolder;
+        }
+
+        .title {
+            font-family: 'Play', sans-serif;
+        }
+
+        .larger {
+            font-size: 120%;
+        }
+
+        #menu {
+            background-color: aquamarine;
+        }
+
+        .table {
+            text-align: left;
+        }
+
+        table {
+            background-color: yellow;
+            border: solid black 2px;
+        }
+
+        #menuContainer {
+            display: inline-block;
+        }
+    </style>
+</head>
+<body class="container">
+    <header class="center">
+        <h1 class="title">Tummy Hungry</h1>
+    </header>
+    <hr />
+
+    <nav>
+        <span>
+            <a href="index.html" class="badge badge-info md">Home</a>
+            <a href="menu.html" class="badge badge-info md">Menu</a>
+            <a href="contact.html" class="badge badge-info md">Contact Us</a>
+
+        </span>
+    </nav>
+
+    <hr />
+    <div class="container" id="menuContainer">
+
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-body center">
+                        <h5 class="card-title">Joey Special</h5>
+                        <p class="card-text">2 pizza's.  Up to 3 toppings each</p>
+                    </div>
+                    <div class="card-footer text-muted">
+                        $16.00
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-body center">
+                    <h5 class="card-title">Cheese Burger</h5>
+                        <p class="card-text">Ground meat seared to perfection, inserted between two buns. Topped off with cheeziness!</p>
+                    </div>
+                    <div class="card-footer text-muted">
+                        $8.00
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-body center">
+                        <h5 class="card-title">Chicken Fried Chicken</h5>
+                        <p class="card-text">Crispy on the outside, juicy on the inside! So good, it could make you go cuckoo!</p>
+                    </div>
+                    <div class="card-footer text-muted">
+                        $14.00
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+                <div class="col-sm-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Spaghetti Yos!</h5>
+                            <p class="card-text">Long noodles, tied together on each end, forming a circle, covered with saucy tomatoes.</p>
+                        </div>
+                        <div class="card-footer text-muted">
+                            $15.00
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Hot Diggity Dog</h5>
+                            <p class="card-text">Relish your peppers and onions on top of this beefy dog wrapped in Hawaiian rolls.</p>
+                        </div>
+                        <div class="card-footer text-muted">
+                            $7.00
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Meat Loaf</h5>
+                            <p class="card-text">Our grandma's secret recipe with a side of taters and ketchup.</p>
+                        </div>
+                        <div class="card-footer text-muted">
+                            $16.00
+                        </div>
+                    </div>
+                </div>
+            </div>
+                
+    </div>
+    <!-- <div id="menu">
+        <div style="text-align: center">
+            <div style="display: inline-grid; width: 30%; border: none black; height: 200px;">
+                <p class="larger"><strong>Joey Special</strong></p><br>
+                <p>2 pizza's.  Up to 3 toppings each</p><br>
+                <p>$10.00</p>
+            </div>
+            <div style="display: inline-grid; width:30%; border: none black; height: 200px;">
+                <p class="larger"><strong>Cheese Burger</strong></p><br>
+                <p>Ground meat seared to perfection, inserted between two buns. Topped off with cheeziness!</p>
+                <p>$7.00</p>
+            </div>
+            <div style="display: inline-grid; width:30%; border: none black; height: 200px;">
+                <p class="larger"><strong>Chicken Fried Chicken</strong></p>
+                <p>Crispy on the outside, juicy on the inside! So good, it could make you go cuckoo!</p>
+                <p>$12.00</p>
+            </div>
+        </div>
+        <div style="text-align: center"> 
+            <div style="display: inline-grid; width:30%; border: none black; height: 200px;">
+                <p class="larger"><strong>Spaghetti Yos!</strong></p>
+                <p>Long noodles, tied together on each end, forming a circle, covered with saucy tomatoes.</p>
+                <p>$6.00</p>
+            </div>
+            <div style="display: inline-grid; width:30%; border: none black; height: 200px;">
+                <p class="larger"><strong>Hot Diggity Dog</strong></p>
+                <p>Relish your peppers and onions on top of this beefy dog wrapped in Hawaiian rolls.</p>
+                <p>$5.00</p>
+            </div>
+            <div style="display: inline-grid; width:30%; border: none black; height: 200px;">
+                <p class="larger"><strong>Meat Loaf</strong></p>
+                <p>Our grandma's secret recipe with a side of taters and ketchup.</p>
+                <p>$10.00</p>
+            </div>
+        </div>
+        <hr />
+    </div> -->
+        <div class="table">
+            <table align="center">
+                <tr>
+                    <th>BEVERAGES</th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <td>Root Beer</td>
+                    <td>$3.00</td>
+                </tr>
+                <tr>
+                    <td>Bottled Water</td>
+                    <td>$1.25</td>
+                </tr>
+                <tr>
+                    <td>Lemonade</td>
+                    <td>$1.00</td>
+                </tr>
+                <tr>
+                    <td>Iced Tea</td>
+                    <td>$1.25</td>
+                </tr>
+            </table>
+        </div>
+
+    <footer class="center">
+            <hr />
+            <p>&copy; 2018 Tummy Hungry</p>
+            <p>1234 FeedMe Ave. Somewhere, WI</p>
+            <p>(555) 555-5555</p>
+            <hr />
+        </footer>
+        
+        <!-- BOOTSTRAP -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+  
+        
+    </body>
+    </html>
